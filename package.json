@@ -2,16 +2,12 @@
   "name": "rawrbox-api",
   "version": "1.0.0",
   "description": "",
-
-  "engines": {
-    "node": "6.11.5",
-    "npm": "3.10.10"
-  },
+  "main": "dist",
   "scripts": {
     "dev": "NODE_ENV=development nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
     "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "NODE_ENV=production pm2 start dist",
     "prestart": "npm run -s build",
-    "start": "node ./app/index.js",
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
