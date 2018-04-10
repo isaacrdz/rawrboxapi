@@ -2,7 +2,7 @@
   "name": "rawrbox-api",
   "version": "1.0.0",
   "description": "",
-  "main": "dist",
+
   "engines": {
     "node": "6.11.5",
     "npm": "3.10.10"
