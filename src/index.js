@@ -31,6 +31,6 @@ app.use('/api/v1', routes);
 
 app.server.listen(config.port);
 
-console.log(`Start on Port ${app.server.address().port}`);
+console.log(`Started on port ${app.server.address().port}`);
 
 export default app;
