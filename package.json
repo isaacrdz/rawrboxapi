@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-      "node": "6.10.2"
-    },
+  "node": "8.9.1"
+},
     "description": "Prebuilt api for slack app clone.",
-    "engines": {
-      "node": "8.9.1"
-    },
     "main": "index.js",
     "scripts": {
       "start": "node index.js",
